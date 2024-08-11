@@ -1,0 +1,82 @@
+/* @import url(https://fonts.google.com/specimen/Roboto); */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.calculator{
+    width: 400px;
+    height: 420px;
+    background-image: linear-gradient(to right,#7DDABE,#1374C3);
+    border-radius: 5px;
+    box-shadow: 0 0 15px #5d5d5d;
+
+}
+
+.calculation-display{
+    color: white;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding:0 20px;
+    display: block;
+    margin-top: 15px;
+
+}
+.main-display{
+    color: white;
+    font-size: 3.5em;
+    font-weight: lighter;
+    padding: 0 20px;
+    display: block;
+    text-align: right;
+
+}
+.raw{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    height: 60px;
+    
+
+}
+.raw button{
+    flex-grow: 1;
+    margin: 2px;
+    border: none;
+    color: antiquewhite;
+    background-color: rgba(255, 255, 255,0.1);
+    width: 40px;
+    /* font-size: 20px; */
+}
+.btn-light{
+    background-color: rgba(255, 255, 255,0.25)!important;
+    /* font-size: 20px; */
+}
+button{
+    transition-duration: 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #b4b2b2;
+
+}
+#btn-eql{
+    background-color: rgb(70, 126, 70);
+    width: 88px;
+    transition-duration:0.5s;
+    border-bottom-right-radius: 5px;
+}
+#btn-eql:hover{
+    background-color: rgb(3, 49, 3);
+}
+#btn-zero{
+    border-bottom-left-radius: 5px;
+}
